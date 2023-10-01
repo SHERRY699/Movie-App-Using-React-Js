@@ -67,6 +67,7 @@ function Header({ dark, setdark }) {
             onClick={() => {
               sethidden(!hidden);
             }}
+            className="mr-16 lg:mr-0"
           >
             <FontAwesomeIcon icon={faBars} />
           </button>
